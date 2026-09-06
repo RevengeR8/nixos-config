@@ -12,6 +12,7 @@
   imports = [
     ./home/fastfetch.nix
     ./home/git.nix
+    ./home/hyprland.nix
     ./home/kitty.nix
     ./home/packages.nix
   ];

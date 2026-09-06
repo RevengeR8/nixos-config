@@ -5,6 +5,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./modules/bootloader.nix
+      ./modules/desktop.nix
       ./modules/packages.nix
       ./modules/programs.nix
       ./modules/security.nix
