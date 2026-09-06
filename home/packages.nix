@@ -3,7 +3,7 @@
 {
 
   home.packages = with pkgs; [
-    dolphin
+    kdePackages.dolphin
     fastfetch
     kitty
     neovim
