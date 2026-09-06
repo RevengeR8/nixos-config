@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }:
 
 { 
-
+  programs.git.enable = true;
   # programs.firefox.enable = true;
 
   # Some programs need SUID wrappers, can be configured further or are
