@@ -6,6 +6,7 @@
       ./hardware-configuration.nix
       ./modules/bootloader.nix
       ./modules/desktop.nix
+      ./modules/fonts.nix
       ./modules/packages.nix
       ./modules/programs.nix
       ./modules/security.nix
