@@ -9,10 +9,11 @@
 
   programs.home-manager.enable = true;
 
-  home.packages = with pkgs; [ 
-    neovim
-    kitty
-    fastfetch
+  imports = [
+    ./home/fastfetch.nix
+    ./home/git.nix
+    ./home/kitty.nix
+    ./home/packages.nix
   ];
 
 }
